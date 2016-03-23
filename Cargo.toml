@@ -1,0 +1,16 @@
+[package]
+name = "gecko_atom"
+description = "A crate to allow using Gecko's nsIAtom transparently."
+version = "1.0.0"
+authors = ["The Servo Project Developers"]
+repository = "https://github.com/servo/gecko-atom"
+license = "MPL-2.0"
+
+[features]
+log-events = []
+unstable = []
+heap_size = []
+
+[dependencies]
+heapsize = "0.3.5"
+libc = "0.2"
